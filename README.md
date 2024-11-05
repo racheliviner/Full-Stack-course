@@ -1,28 +1,77 @@
-# Node and Express Tutorial
+#### Setup
 
-#### Node Course
+In order to spin up the project,
+in the root create .env with these two variables, with your own values:
 
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
+MONGO_URI
+JWT_SECRET
 
-#### Support
+After that run this command
 
-Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+```bash
+npm install && npm start
+```
 
-#### Contents
+#### Database Connection
 
-1. Node Tutorial
-2. Express Tutorial
-3. Task Manager (MongoDB, Mongoose)
-4. Store API
-5. JWT Basics
-6. Jobs API
+1. Import connect.js
+2. Invoke in start()
+3. Setup .env in the root
+4. Add MONGO_URI with correct value
 
-#### Course Exclusive
+#### Routers
 
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
+- auth.js
+- jobs.js
 
-7. File Upload (local and cloudinary)
-8. Send Email (nodemailer,ethereal and sendgrid )
-9. Stripe Payment
-10. E-Commerce API
-11. Auth Workflow (verify email, reset password)
+#### User Model
+
+Email Validation Regex
+
+```regex
+/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+```
+
+#### Register User
+
+- Validate - name, email, password - with Mongoose
+- Hash Password (with bcryptjs)
+- Save User
+- Generate Token
+- Send Response with Token
+
+#### Login User
+
+- Validate - email, password - in controller
+- If email or password is missing, throw BadRequestError
+- Find User
+- Compare Passwords
+- If no user or password does not match, throw UnauthenticatedError
+- If correct, generate Token
+- Send Response with Token
+
+#### Mongoose Errors
+
+- Validation Errors
+- Duplicate (Email)
+- Cast Error
+
+#### Security
+
+- helmet
+- cors
+- xss-clean
+- express-rate-limit
+
+Swagger UI
+
+```yaml
+/jobs/{id}:
+  parameters:
+    - in: path
+      name: id
+      schema:
+        type: string
+      required: true
+      description: the job id
+```
