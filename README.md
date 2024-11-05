@@ -1,28 +1,26 @@
-# Node and Express Tutorial
+## HTML & CSS Fundamentals
+**Course:** [HTML & CSS Full Course - Beginner to Pro](https://www.youtube.com/watch?v=G3e-cpL7ofc)
+**Duration:** 6 hours 31 minutes
 
-#### Node Course
+## JavaScript Essentials
+**Course:** [JavaScript Tutorial Full Course - Beginner to Pro (2024)](https://www.youtube.com/watch?v=EerdGm-ehJQ)
+**Duration:** 22 hours 15 minutes
 
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
+## Git & GitHub
+**Courses:** 
+1. [Git and GitHub - 0 Experience to Professional in 1 Tutorial (Part 1)](https://www.youtube.com/watch?v=hrTQipWp6co)
+2. [Git and GitHub - 0 Experience to Professional in 1 Tutorial (Part 2) - 56 minutes](https://www.youtube.com/watch?v=1ibmWyt8hfw)
+3. [Git Branching and Merging - Detailed Tutorial - 54 minutes](https://www.youtube.com/watch?v=Q1kHG842HoI)
 
-#### Support
+## Node.js, Express.js
+**Course:** [Node.js and Express.js Full Course](https://www.youtube.com/watch?v=Oe421EPjeBE)
+**Duration:** 8 hours 16 minutes
 
-Find the App Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+## Backend Development Tools - API's, Postman, MongoDB, JWT
+**Course:** [Node.js / Express Course - Build 4 Projects](https://www.youtube.com/watch?v=qwfE7fSVaZM)
+**Duration:** 10 hours
 
-#### Contents
-
-1. Node Tutorial
-2. Express Tutorial
-3. Task Manager (MongoDB, Mongoose)
-4. Store API
-5. JWT Basics
-6. Jobs API
-
-#### Course Exclusive
-
-[Node Tutorial and Projects Course](https://www.udemy.com/course/nodejs-tutorial-and-projects-course/?referralCode=E94792BEAE9ADD204BC7)
-
-7. File Upload (local and cloudinary)
-8. Send Email (nodemailer,ethereal and sendgrid )
-9. Stripe Payment
-10. E-Commerce API
-11. Auth Workflow (verify email, reset password)
+## Next Steps
+- React.js
+- Next.js
+- TypeScript
