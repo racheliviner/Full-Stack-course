@@ -79,3 +79,4 @@
 - **Next.js** - Framework for server-rendered React applications
 - **TypeScript** - Static typing for scalable JavaScript applications
 - **MongoDB**
+- **How to create API docs**
