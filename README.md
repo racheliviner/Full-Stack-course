@@ -78,3 +78,4 @@
 - **React.js** - Frontend framework for building interactive UIs
 - **Next.js** - Framework for server-rendered React applications
 - **TypeScript** - Static typing for scalable JavaScript applications
+- **MongoDB**
