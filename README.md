@@ -76,14 +76,13 @@
 
 ## What i'm currently working on:
 **Course:** [React - The Complete Guide 2024 (incl. Next.js, Redux)](https://www.udemy.com/course/react-the-complete-guide-incl-redux/?srsltid=AfmBOopBBa7kinBCr2LK_RKHmbFQPhi0FwXhnRerirGbLc_l4yd5kSA1)  
-**Duration:** 68 hours  
+**Duration:** 68 hours
 **Repository:** [react-complete-guide](https://github.com/racheliviner/react-complete-guide.git)
 
 ---
 
 ## Next Steps
-- **React.js** - Frontend framework for building interactive UIs
 - **Next.js** - Framework for server-rendered React applications
 - **TypeScript** - Static typing for scalable JavaScript applications
+- **Zod**
 - **MongoDB**
-- **How to create API docs**
