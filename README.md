@@ -85,4 +85,6 @@
 - **Next.js** - Framework for server-rendered React applications
 - **TypeScript** - Static typing for scalable JavaScript applications
 - **Zod**
+- **figma**
+- **Jira**
 - **MongoDB**
