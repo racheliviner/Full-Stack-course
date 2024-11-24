@@ -79,6 +79,20 @@
 **Duration:** 68 hours
 **Repository:** [react-complete-guide](https://github.com/racheliviner/react-complete-guide.git)
 
+**Lessons:**
+
+Understanding React.js and its Alternatives (Vue, Angular)
+Components, JSX, and Props
+State Management with useState and useReducer
+Event Handling and Controlled Components
+Styling with CSS Modules, Styled Components, and Dynamic Styles
+Debugging with React DevTools and Error Boundaries
+Forms and Validation with Custom Hooks
+Working with HTTP Requests and Side Effects (useEffect)
+Context API, Redux, and Advanced State Management
+Optimizations: React.memo, useCallback, and useMemo
+Advanced Topics: Portals, Refs, and Class-Based Components
+
 ---
 
 ## Next Steps
