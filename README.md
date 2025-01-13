@@ -96,10 +96,12 @@
 ---
 
 ## Next Steps
-- **Next.js** - Framework for server-rendered React applications
-- **TypeScript** - Static typing for scalable JavaScript applications
+- **TypeScript** - Udemy - Understanding TypeScript - 2022 Edition:
+- **MongoDB** - Udemy - MongoDB - The Complete Developer's Guide 2022
+- **MERN** - The MERN stack Udemy
+- **Tests** - Unit Tests - בדיקות קוד
+- **Next.js**
 - **Zod**
 - **figma**
 - **Jira**
-- **MongoDB**
 - **How to create API docs**
